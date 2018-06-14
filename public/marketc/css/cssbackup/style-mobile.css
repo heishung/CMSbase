@@ -1,0 +1,348 @@
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px
+    }
+
+    .sidenav a {
+        font-size: 18px
+    }
+}
+@media (max-width: 576px) {
+    .m-box-uor-team .p-2{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .single-member:hover .team-content {
+        transition: 1s;
+        top: 0px;
+        padding: 15px 10px;
+        background: #1043bb;
+        text-align: left;
+    }
+    .m-box-uor-team .p-2 h4{
+        font-size: 12px;
+    }
+    .m-box-partners .p-2{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        padding: 20px!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .m-btn-head{
+        width: 109px;
+        height: 40px;
+    }
+    .m-top-header{
+        /* position: fixed;
+         top: 0px;*/
+        z-index: 1000;
+        background: linear-gradient(to top right, #010348, #34096a);
+        position: fixed;
+    }
+    #mobile .card-text:last-child {
+        height: 60px;
+        margin-bottom: 0;
+        overflow-y: auto;
+    }
+
+    .plane-ico {
+        display: block;
+        width: 53px !important;
+        margin-bottom: 2.5px
+    }
+
+    .fixed-btn {
+        z-index: 10000;
+        position: fixed;
+        right: 4%;
+        bottom: 8%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 40px !important;
+        height: 40px !important;
+        -webkit-box-orient: vertical;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 100px;
+        background-color: #37aee2;
+        box-shadow: 0 15px 30px 0 rgba(43, 80, 96, .3);
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 800;
+        text-align: center
+    }
+    #accordion{
+        background-color: white;
+    }
+    #accordion .card {
+        border: none;
+        width: 100%!important;
+        margin-bottom: 1px;
+        box-shadow: none;
+        background-color: #ffffff00;
+    }
+    #myScrollspymb  .card-body{
+        background-color: #ebebeb;
+        color: #666666;
+    }
+    #cat-faq{
+        background: url('../images/m-office.jpg') no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: auto;
+        padding: 0px;
+
+    }
+    #accordion button{
+        padding: 0px;
+    }
+    #accordion button span{
+        color: #000000;
+        text-decoration: none;
+    }
+    .card-header{
+        padding: 0px;
+    }
+    #desktop {
+        display: none
+    }
+
+    #mobile {
+        display: block !important
+    }
+
+    .m-header {
+        background: url(../images/img-head.png) no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: auto;
+        overflow: hidden;
+    }
+
+    #headingOne {
+        background-color: white;
+    }
+
+    .m-box-content-faq li p {
+        padding-left: 40px;
+        font-family: Montserrat-regular
+    }
+
+    .m-box-content-faq li {
+        list-style: none
+    }
+
+    .m-box-content-faq li .title-faq {
+        line-height: 20px;
+        margin-bottom: 10px
+    }
+
+    .m-box-content-faq li:first-child .title-faq:before {
+        content: "01"
+    }
+
+    .m-box-content-faq li:nth-child(2) .title-faq:before {
+        content: "02"
+    }
+
+    .m-box-content-faq li:nth-child(3) .title-faq:before {
+        content: "03"
+    }
+
+    .m-box-content-faq li:nth-child(4) .title-faq:before {
+        content: "04"
+    }
+
+    .m-box-content-faq li:nth-child(5) .title-faq:before {
+        content: "05"
+    }
+
+    .m-box-content-faq li:nth-child(6) .title-faq:before {
+        content: "06"
+    }
+
+    .m-box-content-faq li .title-faq:before {
+        background: linear-gradient(to top right, #312193, #232ea2);
+        box-shadow: 0px 0px 0px 3px #232ea285;
+        background-color: #2fb4e8;
+        border-radius: 3px 0px 3px 0px;
+        display: inline-block;
+        margin: 0px 10px 0px 5px;
+        border-radius: 50%;
+        color: white;
+        height: 20px;
+        float: left;
+        width: 20px;
+        display: -moz-box;
+        -moz-box-align: center;
+        -moz-box-pack: center;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+        display: -moz-box;
+        box-align: center;
+        box-pack: center
+    }
+
+
+
+    #m-our-advisors .card:hover .card-body {
+        cursor: pointer;
+        background: linear-gradient(to top right, white, white)
+    }
+
+    #m-our-advisors .card:hover .card-title {
+        color: #3c1585 !important
+    }
+
+    #m-our-advisors .card:hover h5 {
+        color: #3c1585 !important
+    }
+    .team-content{
+
+    }
+    #m-our-advisors .card:hover .card-text {
+        color: #afa8bf !important
+    }
+
+    #m-our-advisors .card:hover .item-card-img-top {
+        background: linear-gradient(to top right, #0d47be, #3b1787) !important
+    }
+    .team-content {
+        top: 50%;
+    }
+    .team-content .font-size-15{
+        font-size: 12px!important;
+    }
+    .m-box-partners .p-2{
+        padding: 20px;
+    }
+    .bg-m-color-footer {
+        background-color: #180e33;
+    }
+    .m-title-footer h6{
+        border-bottom: solid 1px #0d47be;
+        display: inline-flex;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    a:hover {
+        color: #0056b3!important;
+        text-decoration: underline!important;
+    }
+
+    .m-comment > span{
+        display: table;
+        margin: 0 auto;
+    }
+    .card{width: 80% !important;}
+    .m-comment .morelink{
+
+    }
+    .title-ss {
+        font-family: Montserrat-extrabold;
+        font-size: 12px;
+        /* margin-bottom: 25px; */
+    }
+    .box-nonprofit .col-xs-5{
+        width: 48%;
+        color: white;
+        border-bottom: #898989;
+        border-bottom: #898989 solid 1px;
+    }
+    .box-nonprofit .col-xs-5 li{
+        color: white;
+    }
+    .shortcontent{
+        max-height: 48px;
+    }
+    .modal-content {
+        background-color: #f8f8f8!important;
+        max-width: 90%;
+        top: 15%!important;
+    }
+    /*faq*/
+    #cat-faq .card {
+        width: 95%!important;
+        background-color: #fff0;
+        color: white;
+        border: none;
+        border-radius:0px ;
+        border-bottom: solid 1px white;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #cat-faq .card:last-child{
+        border-bottom: none;
+    }
+    #cat-faq .card .card-body{
+        padding: 5px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    #mobile {
+        display: none
+    }
+}
+
+@media (min-width: 992px) {
+    #mobile {
+        display: none
+    }
+
+    .nav-item {
+        border-bottom: none
+    }
+}
+/*
+menu mobile*/
+
+.menu-button .fa-window-minimize:first-child {
+    position: absolute;
+    display: table;
+    left: 0%;
+    top: 15%;
+}
+.menu-button .fa-window-minimize:last-child {
+    position: absolute;
+    display: table;
+    left: 0%;
+    top: 0%;
+}
+.menu-button .fa-rt:last-child{
+    transition: transform 300ms;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    left: -5%!important;
+    top: 15%!important;
+}
+.menu-button .fa-rt:first-child{
+    transition: transform 300ms;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
